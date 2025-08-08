@@ -15,7 +15,8 @@ This project builds a machine learning model to predict wheth customer setisfied
 │   ├── app.py              
 │   └── model.pkl           
 ├── requirements.txt          
-├── README.md                
+├── README.md   
+├── Customer satisfaction report dashboard             
 ```
 
 ---
@@ -23,7 +24,7 @@ This project builds a machine learning model to predict wheth customer setisfied
 ## 🎯 Objective
 
 To predict if a Customer setisfie or not.
-
+And create beautifull interface of Power BI report
 ---
 
 ## 📦 Features Used
