@@ -77,7 +77,7 @@ And create beautifull interface of Power BI report
 
 4. Run the Streamlit app:
    ```bash
-   streamlit run "Model_Deploying/app.py"
+   streamlit run "Model_deploying/satisfaction_prediction.py"
    ```
 ---
 

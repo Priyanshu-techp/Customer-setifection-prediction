@@ -65,4 +65,4 @@ if st.button("Predict Satisfaction Rating"):
 # how to run
 # frist activate the enviroment venv\Scripts\activate
 # then run
-# Streamlit run 'Model_deploying/app.py'
+# Streamlit run 'Model_deploying/satisfaction_prediction.py'
