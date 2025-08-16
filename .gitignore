@@ -10,6 +10,6 @@ git push -u origin main
 # update push file 
 
 git add .                    
-git commit -m "requirements.txt"   
-git push origin main           # push to GitHub
+git commit -m "requirements.txt and .gitignore"   
+git push origin main          
 
