@@ -9,5 +9,7 @@ git push -u origin main
 
 # update push file 
 
-git add .
-git push
+git add .                    
+git commit -m "app.py, requirements.txt and .gitignore"   
+git push origin main           # push to GitHub
+

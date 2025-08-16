@@ -4,7 +4,7 @@ import pandas as pd
 
 model = joblib.load("Model_deploying/model.pkl")
 
-st.title("Machine Failure Prediction App")
+st.title("Customer Setisfection Prediction Model")
 
 age = st.slider("Customer Age", 0, 100, 30)
 days = st.number_input("Days_Since_Purchase")
