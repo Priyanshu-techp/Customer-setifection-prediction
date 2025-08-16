@@ -2,7 +2,11 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load("Model_deploying/model.pkl")
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), "Model_deploying/model.pkl")
+model = joblib.load(model_path)
+
 
 st.title("Customer Setisfection Prediction Model")
 
