@@ -3,9 +3,13 @@ import joblib
 import pandas as pd
 
 import os
+import joblib
 
-model_path = os.path.join(os.path.dirname(__file__), "Model_deploying/model.pkl")
+BASE_DIR = os.path.dirname(__file__)
+
+model_path = os.path.join(BASE_DIR, "model.pkl")
 model = joblib.load(model_path)
+
 
 
 st.title("Customer Setisfection Prediction Model")
