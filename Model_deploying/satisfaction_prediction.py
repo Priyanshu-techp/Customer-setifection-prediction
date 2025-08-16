@@ -69,7 +69,7 @@ if st.button("Predict Satisfaction Rating"):
     else:
         st.error(f"Predicted Satisfaction Rating: {rounded} Customer is Not Satisfied")
 
-
+print(model.get_params())
 # how to run
 # frist activate the enviroment venv\Scripts\activate
 # then run
