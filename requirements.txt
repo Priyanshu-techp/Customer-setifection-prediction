@@ -6,4 +6,4 @@ streamlit
 Pandas 
 seaborn
 matplotlib
-Pillow>=9.5.0
+Pillow
