@@ -4,7 +4,7 @@ This project builds a machine learning model to predict wheth customer setisfied
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── data/                  
@@ -21,13 +21,13 @@ This project builds a machine learning model to predict wheth customer setisfied
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To predict if a Customer setisfie or not.
 And create beautifull interface of Power BI report
 ---
 
-## 📦 Features Used
+## Features Used
 
 - Customer 
 - Age	 
@@ -38,7 +38,7 @@ And create beautifull interface of Power BI report
 - Satisfaction_Level    
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python (Pandas, NumPy, seaborn, matplotlib, Scikit-learn, Imbalanced-learn)
 - Streamlit (for deployment)
@@ -46,7 +46,7 @@ And create beautifull interface of Power BI report
 
 ---
 
-## 📊 Model & Evaluation
+## Model & Evaluation
 
 - **Model Used:** e.g., RandomForestClassifier / LogisticRegression  
 - **Evaluation Metrics:**
@@ -58,8 +58,7 @@ And create beautifull interface of Power BI report
 
 ---
 
-## 🚀 How to Run the App
-
+##  How to Run the App
 1. Clone the repository:
    ```bash
    git clone https://github.com/Priyanshu-techp/Customer-setifection-prediction.git
@@ -81,22 +80,24 @@ And create beautifull interface of Power BI report
    ```
 ---
 
-## 📈 Results
+## Results
 
 - **Best r2-score:** ~0.89  
 - **Overall Accuracy:** ~0.89  
 - **Handel Missing values in taget column**
 
 ---
+## Deploy link
+[Streamlit](https://customer-satisfaction-prediction-model.streamlit.app/)
 
-## ⚠️ Notes
+##  Notes
 
 - Ensure consistent `scikit-learn` versions during model saving and loading.
 - Threshold tuning may be required for better minority class detection.
 
 ---
 
-## 👤 Author
+## Author
 
 **Priyanshu Pandey**  
 Diploma in Automation & Robotics  
